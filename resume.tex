@@ -142,57 +142,76 @@
 % \end{tabularx}
 
 \begin{tabularx}{\linewidth}{@{} C @{}}
-\Huge{Léo Lopes} \\[7.5pt]
-\href{https://github.com/username}{\raisebox{-0.05\height}\faGithub\ Lazyyx} \ $|$ \ 
-\href{https://linkedin.com/in/username}{\raisebox{-0.05\height}\faLinkedin\ Léo Lopes} \ $|$ \ 
-\href{mailto:email@mysite.com}{\raisebox{-0.05\height}\faEnvelope \ lopes.leo43200@gmail.com} \ $|$ \ 
-\href{tel:+000000000000}{\raisebox{-0.05\height}\faMobile \ +33 6 62 24 80 94} \\
+\Huge{Leo Lopes} \\[7.5pt]
+\normalsize{AI Engineering Student – EPITA – Seeking final-year internship (Feb 2026)} \\[7.5pt]
+\href{https://github.com/Lazyyx}{\raisebox{-0.05\height}\faGithub\ Lazyyx} \ $|$ \ 
+\href{https://www.linkedin.com/in/lopes-leo/}{\raisebox{-0.05\height}\faLinkedin\ Leo Lopes} \ $|$ \ 
+\href{lopes.leo43200@gmail.com}{\raisebox{-0.05\height}\faEnvelope \ lopes.leo43200@gmail.com} \ $|$ \ 
+\href{tel:+33662248094}{\raisebox{-0.05\height}\faMobile \ +33 6 62 24 80 94} \\
 \end{tabularx}
 
 %----------------------------------------------------------------------------------------
 % EXPERIENCE SECTIONS
 %----------------------------------------------------------------------------------------
 
-%Interests/ Keywords/ Summary
-\section{Summary}
-This CV can also be automatically compiled and published using GitHub Actions. For details, \href{https://github.com/jitinnair1/autoCV}{click here}.
 
 %Experience
 \section{Work Experience}
 
-\begin{joblong}{Data Engineer Internship, Boralex}{Sep 2024 - Jan 2025}
-\item Designed and deployed 4 internal web applications using Python, Streamlit and Docker enhancing data accessibility and workflow automation
-
-\item Developed a real-time production monitoring dashboard by orchestrating ETL pipelines with Prefect and storing results in MySQL
-
-\item Created a bug reporting and deployment tracking system with interactive UI, email notifications, and secure data archiving
+\begin{joblong}{Data Applications Intern, Boralex}{Sep 2024 – Jan 2025}
+\item Developed and deployed internal web apps and dashboards (Python, Streamlit, Prefect, MySQL, Docker) to support production monitoring and internal workflows
 \end{joblong}
 
-
-\begin{joblong}{Assistant Developer, Viswood}{Jun 2022 - Jul 2022}
-\item Performed data extraction and manipulation using MySQL
-
-\item Designed and implemented ETL-based automation workflows, reducing manual workload and enhancing team productivity
+\begin{joblong}{Assistant Developer, Viswood}{Jun 2022 – Jul 2022}
+\item Built SQL-based ETL workflows to automate data handling and reduce manual tasks
 \end{joblong}
-  
+
+\vspace{-0.7em}
+
 %Projects
 \section{Projects}
 
-\begin{tabularx}{\linewidth}{ @{}l r@{} }
-\textbf{Some Project} \\[3.75pt]
-\multicolumn{2}{@{}X@{}}{long long line of blah blah that will wrap when the table fills the column width long long line of blah blah that will wrap when the table fills the column width long long line of blah blah that will wrap when the table fills the column width long long line of blah blah that will wrap when the table fills the column width}  \\
+\begin{tabularx}{\linewidth}{@{}l X r@{}}
+\textbf{GoEmotions – Emotion Classification \& Text Generation} & \hfill & \\[3.75pt]
 \end{tabularx}
+\begin{minipage}[t]{\linewidth}
+Emotion classification and controlled text generation on the GoEmotions dataset (58k comments, 27 emotions), with results close to Google AI’s benchmark. \\
+\textit{Stack:} Python, scikit-learn, PyTorch, HuggingFace, Streamlit
+\end{minipage} \\
+
+\begin{tabularx}{\linewidth}{@{}l X r@{}}
+\textbf{Kuaishou Video Recommendation Systems} & \hfill & \\[3.75pt]
+\end{tabularx}
+\begin{minipage}[t]{\linewidth}
+Video recommendation on the Kuaishou dataset using collaborative filtering, matrix factorization (ALS) and Autoencoders. \\
+\textit{Stack:} Python, Pandas, NumPy, Matplotlib, PySpark ALS, TensorFlow, Keras
+\end{minipage} \\
+
+\begin{tabularx}{\linewidth}{@{}l X r@{}}
+\textbf{MRI Radiomics for Uterine Cancer Prognosis} & \hfill & \\[3.75pt]
+\end{tabularx}
+\begin{minipage}[t]{\linewidth}
+Segmentation of pelvic MRI scans, extraction of radiomic features, and machine learning–based prediction of cancer treatment outcomes. \\
+\textit{Stack:} Python, Pandas, PyTorch, MONAI, PyRadiomics, scikit-learn, XGBoost
+\end{minipage}
+
+
+
+
+
 
 %----------------------------------------------------------------------------------------
 %	EDUCATION
 %----------------------------------------------------------------------------------------
 \section{Education}
 \begin{tabularx}{\linewidth}{@{}l X@{}}	
-2021 - present & Engineering Master’s Degree at \textbf{EPITA, Paris} \hfill \normalsize (AI major)\\
+2021 – 2026 & \textbf{EPITA – Graduate School of Computer Science}, Paris, France \\
+            & Engineering Master’s Degree (MSc equivalent) – Major in Artificial Intelligence \\[0.6em]
 
-2023 & Erasmus Academic Semester at \textbf{UPM, Madrid} \hfill (Computer Science) \\ 
-
+Spring 2023 & \textbf{Universidad Politecnica de Madrid (UPM)}, Spain \\
+            & Erasmus Academic Semester – Computer Science \& Software Systems \\
 \end{tabularx}
+
 
 %----------------------------------------------------------------------------------------
 %	LANGUAGES
@@ -212,8 +231,15 @@ This CV can also be automatically compiled and published using GitHub Actions. F
 %----------------------------------------------------------------------------------------
 \section{Skills}
 \begin{tabularx}{\linewidth}{@{}l X@{}}
-Some Skills &  \normalsize{This, That, Some of this and that etc.}\\
-Some More Skills  &  \normalsize{Also some more of this, Some more that, And some of this and that etc.}\\  
+
+\textbf{Programming \& Data} & Python, Scala, Java, SQL, NumPy, Pandas, Matplotlib, Seaborn \\
+
+\textbf{Machine \& Deep Learning} & scikit-learn, PyTorch, TensorFlow, Keras, XGBoost, OpenCV, MONAI, BERT, Transformers (HuggingFace) \\
+
+\textbf{Tools \& Deployment} & Docker, Git, Linux, Kubernetes, CI/CD (GitHub Actions), Streamlit \\
+
 \end{tabularx}
+
+
 
 \end{document}
